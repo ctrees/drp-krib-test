@@ -1,0 +1,49 @@
+# Copyright 2017, RackN, Inc
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#  http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+drp-data
+/dr-provision
+/drpcli
+/default.yaml
+/doc/content-packages/*.rst
+drpcli-docs
+drpcli.amd64.linux
+drpcli.amd64.darwin
+drpcli.amd64.windows
+drpcli.arm64.linux
+cli/test.log
+bin
+vendor
+coverage.txt
+ALL-LICENSE
+client
+genmodels
+assets/isos/
+dr-provision.zip
+dr-provision.sha256
+dr-provision-hash.*
+server.key
+server.crt
+cmds/incrementer/content.go
+# ignore Mac vomit 
+.DS_Store
+# Pip stuff for docs
+src
+test-data/etc/dr-provision/._Description.meta
+test-data/etc/dr-provision/._Name.meta
+test-data/etc/dr-provision/._Version.meta
+
+# documentation
+builddir/
+_build/
